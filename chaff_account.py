@@ -158,7 +158,7 @@ class UserGenerator(object):
 			http = credentials.authorize(http)
 		except AttributeError as err:
 			self.logger.error('ERROR: {}; check google auth token\'s path in config'.format(str(err)))
-			sys.stderr.write('\nERROR: {}; check google auth token\'s path in config\n'.format(str(err)))
+			sys.stderr.write('\nERROR: {}; check google auth token\'s path in config or an email domain may be specified in the config file and you are trying to send @example.com accounts'.format(str(err)))
 			sys.exit(301)
         # Tell Google we're using the admin directory API with our http object
         # then have it try and check if the email specified exists
