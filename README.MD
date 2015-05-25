@@ -1,8 +1,8 @@
-# *********************************************************************
+***
 
 # WITH GREAT POWER COMES GREAT RESPONSIBILITY
 
-# *********************************************************************
+***
 
 
 # ABOUT CHAFF
@@ -22,7 +22,11 @@ Python 2.7
 
 Python SetupTools ( `sudo apt-get install python-pip` )
 
-All other python libraries/dependencies will be installed when running the setup script. 
+The Following libraries will be installed when running the setup script:
+* beautifulsoup4
+* requests
+* google-api-python-client
+
 
 
 ## INSTALLATION 
